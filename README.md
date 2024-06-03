@@ -20,6 +20,8 @@ In your `application.properties` put the necessary credentials for the MySQL con
 spring.datasource.url=jdbc:mysql://localhost/YOUR_SCHEMA?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrival=true
 spring.datasource.username=YOUR_USERNAME
 spring.datasource.password=YOUR_PASSWORD
+spring.sql.init.mode=always
+spring.jpa.hibernate.ddl-auto=update
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 ```
