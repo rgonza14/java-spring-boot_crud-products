@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS product (
+    idproduct INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(45) NOT NULL,
+    price INT NOT NULL,
+    STOCK INT NOT NULL
+);
